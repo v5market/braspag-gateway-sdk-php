@@ -32,14 +32,14 @@ jobs:
         run: composer install
 
       - name: Execute tests
-        run: composer tdd
+        run: composer phpunit
 
   codeQuality:
     name: "Check code with ${{ matrix.command }}"
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        command: ['CodeSniffer']
+        command: ['phpcs']
     steps:
       - name: Checkout
         uses: actions/checkout@v2
