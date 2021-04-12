@@ -3,14 +3,14 @@
 Utilize o comando abaixo em seu terminal:
 
 ```bash
-composer require braspag/gateway-sdk-php
+composer require v5market/braspag-gateway-sdk-php
 ```
 
 Ou adicione o trecho abaixo em seu arquivo `composer.json`
 
 ```json
 "require": {
-  "braspag/gateway-sdk-php": "*",
+  "v5market/braspag-gateway-sdk-php": "*",
 }
 ```
 

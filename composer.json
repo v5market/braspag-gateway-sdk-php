@@ -1,5 +1,5 @@
 {
-  "name": "braspag/gateway-sdk-php",
+  "name": "v5market/braspag-gateway-sdk-php",
   "type": "library",
   "require-dev": {
     "phpunit/phpunit": "^9.3",
