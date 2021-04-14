@@ -20,6 +20,7 @@
       "Braspag\\Gateway\\Test\\": "tests/vendor/"
     }
   },
+  "license": "GPL v3",
   "scripts": {
     "phpcs": "vendor/bin/phpcs --colors -s --bootstrap=vendor/autoload.php --standard=PSR1,PSR12 -p --report=full src/",
     "phpcbf": "vendor/bin/phpcbf --colors -s --bootstrap=vendor/autoload.php --standard=PSR1,PSR12 -p --report=full src/",
