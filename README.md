@@ -1,7 +1,7 @@
 :star2: Braspag Pagador SDK PHP
 -----------------------
 
-Este SDK tem o objetivo de facilitar a integração de aplicações PHP com a API de pagamento da Braspag.
+Este SDK tem o objetivo de facilitar a integração de aplicações PHP com a solução de pagamento Pagador da Braspag.
 
 :hammer: Instalação
 -------------------
@@ -51,3 +51,7 @@ BRASPAG_MERCHANT_KEY=""
 ```bash
 php 09-pix.php
 ```
+
+:page_with_curl: Licença
+-----------------------------
+Este projeto é livre sob a [Licença GPL V3](https://github.com/v5market/braspag-gateway-sdk-php/blob/main/LICENSE).
